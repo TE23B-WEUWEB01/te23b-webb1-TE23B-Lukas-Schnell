@@ -1,0 +1,7 @@
+@font-face {
+    font-family: mr-saturn-font;
+    src: url(saturno.ttf);
+}
+.mr-saturnText1{
+    font-family: mr-saturn-font;
+}
