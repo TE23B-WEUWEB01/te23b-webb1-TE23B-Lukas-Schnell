@@ -1,0 +1,87 @@
+body {
+    background-image: url(./bilder/tank\ on\ the\ beach.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    animation: bgSpin 15s infinite linear; /* Background animation */
+}
+
+h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* More playful font */
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 0 neon, 7px 7px 0 lime;
+    color: magenta;
+    margin-top: 100px;
+    transform: rotate(-10deg); /* Tilt for a quirky effect */
+    animation: bounce 1.5s infinite ease-in-out;
+}
+
+h2 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: yellow;
+    text-shadow: 4px 4px 0 red, 6px 6px 0 black;
+    transform: rotate(5deg);
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: white;
+    animation: shake 0.5s infinite ease-in-out;
+}
+
+a {
+    font-family: 'Impact', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: cyan;
+    padding: 15px 60px;
+    border: 5px solid #000;
+    text-align: center;
+    text-shadow: 3px 3px 0 black;
+    display: inline-block;
+    transition: transform 0.2s, background-color 0.2s;
+    animation: wiggle 0.3s infinite;
+}
+
+a:hover {
+    transform: scale(1.2) rotate(5deg);
+    background-color: neon;
+}
+
+/* Animations */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes wiggle {
+    0%, 100% {
+        transform: rotate(-3deg);
+    }
+    50% {
+        transform: rotate(3deg);
+    }
+}
+
+@keyframes shake {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-3px, 3px); }
+    50% { transform: translate(3px, -3px); }
+    75% { transform: translate(-3px, -3px); }
+    100% { transform: translate(3px, 3px); }
+}
+
+@keyframes bgSpin {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 100%; }
+}
