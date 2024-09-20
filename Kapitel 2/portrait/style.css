@@ -1,0 +1,52 @@
+body{
+    background-image: url(./bilder/köttiga\ mikael.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden; 
+    animation: bgSpin 15s infinite linear; 
+}
+
+@font-face {
+    font-family: mr-saturn-font;
+    src: url(saturno.ttf);
+}
+h1{
+    font-family: mr-saturn-font;
+    text-align: center;
+    font-size: 125px;
+    background-color: rgba(220, 20, 60, 0.411);
+    padding: 10px 10px;
+    border: 5px solid #000;
+    
+
+}
+h2{
+    font-family: mr-saturn-font;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgba(240, 248, 255, 0.292);
+}
+
+p{
+   
+    font-family: 'Impact', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    text-shadow: 3px 3px 0 black;
+    transition: transform 0.2s, background-color 0.2s;
+    animation: wiggle 0.3s infinite;
+    font-size: 30px;
+   
+}
+
+a{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(220, 20, 60);
+    padding: 10px 10px;
+    border: 5px solid #000;
+    display: inline-flexbox;
+    margin-left: 1000px;
+}
