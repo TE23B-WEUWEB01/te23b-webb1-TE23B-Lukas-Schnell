@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jacquarda+Bastarda+9&display=swap');
+html{
+    html {
+        box-sizing: border-box;
+    }
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+    body, h1, h2, h3, h4, h5, h6, p, ul {
+        margin: 0;
+        padding: 0;
+    }
+}
+body {
+
+
+}
+
+div {
+    background-image: url(./bilder/meat.jpg);
+    width: 600px;
+    height: 400px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 300px;
+    border-radius: 100px;
+    box-shadow: 10px 10px 20px black;
+}
+
+h1 {
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: "Comic Neue", cursive;
+    font-size: 30px;
+}
+
+p {
+    font-family: "Comic Neue", cursive;
+    font-size: 20px;
+}
