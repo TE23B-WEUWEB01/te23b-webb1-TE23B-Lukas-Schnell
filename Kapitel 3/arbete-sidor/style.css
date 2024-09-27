@@ -1,0 +1,76 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* fonter */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jacquarda+Bastarda+9&display=swap');
+
+@font-face {
+    font-family: mr-saturn-font;
+    src: url("./bilder/saturno.ttf");
+}
+
+/* tags utseende */
+.sida1 {
+    background-image: url("./bilder/seemless\ pattern\ 6.avif");
+}
+
+.sida2{
+    background-image: url("./bilder/seemless\ pattern\ 3.jpg");
+}
+.sida3{
+    background-image: url("./bilder/seemless\ pattern\ 1.png");
+}
+.sida4{
+    background-image: url(./bilder/seemless\ pattern\ 4.jpg);
+}
+.sida5{
+    background-image: url(./bilder/seemless\ pattern\ 5.jpg);
+}
+.sida6{
+    background-image: url("./bilder/seemless\ pattern\ 2.jpg");
+}
+div {
+    background-color: aliceblue;
+    width: 500px;
+    border: 10px dashed;
+    margin: 150px auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 25;
+    font-family: mr-saturn-font;
+}
+
+h2 {}
+
+p {
+    font-family: "Jacquarda Bastarda 9", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
