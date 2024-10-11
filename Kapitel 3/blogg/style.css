@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Aubrey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aubrey&family=Farsan&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* layout */
+body {}
+
+h1 {
+    size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Farsan", cursive;
+}
+
+img {
+    border-style: solid;
+    border-color: blueviolet;
+    width: 100%;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.backgroundbox {
+    background-color: darkgreen;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.box {
+    margin-left: 175px;
+    margin-right: 175px;
+    background-color: aqua;
+    border-style: solid;
+    border-color: aqua;
+    padding: 30px;
+    margin-bottom: 30px;  
+    
+
+}
+
+.datum {
+    font-family: "Aubrey", system-ui;
+    margin-bottom: 10px;
+}
