@@ -25,6 +25,14 @@ ul {
     padding: 0;
 }
 
+
+:root{
+    --corn-silk: aliceblue;
+
+    --fire-blue: aqua;
+    --dark-green: darkgreen;
+}
+
 /* layout */
 body {}
 
@@ -48,7 +56,7 @@ p {
 }
 
 .backgroundbox {
-    background-color: darkgreen;
+    background-color: var(--dark-green);
     width: 700px;
     padding: 10px;
     margin: auto;
@@ -58,9 +66,9 @@ p {
 .box {
     margin-left: 175px;
     margin-right: 175px;
-    background-color: aqua;
+    background-color: var(--fire-blue);
     border-style: solid;
-    border-color: aqua;
+    border-color: var(--fire-blue);
     padding: 30px;
     margin-bottom: 30px;  
     
