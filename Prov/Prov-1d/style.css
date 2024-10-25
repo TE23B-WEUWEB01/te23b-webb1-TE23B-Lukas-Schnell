@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./bilder/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* layoutens utseende */
+
+.container {
+    font-family: "Playfair Display";
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.prislista {
+    color: white;
+    text-align: center;
+    background-color: #7f0029;
+    margin-bottom: 0px;
+    border-style: solid;
+    border-color: black;
+    border-bottom: #7f0029;
+}
+
+h1 {
+    color: #7f0029;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    size: 200px;
+}
+
+img {
+    width: 32%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+} 
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #7f0029;
+    text-decoration: none;
+
+}
+
+table {
+    width: 100%;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+th {
+    border-style: solid;
+    text-align: left;
+    background-color: #d1d1d1;
+    padding: 7px;
+}
+
+td {
+    border-style: solid;
+    padding: 7px;
+}
