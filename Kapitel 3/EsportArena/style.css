@@ -35,14 +35,23 @@ body {
     margin: auto;
     padding: 40px;
     background-color: #e3dbf1;
+    /* display: flex; */
+    gap: 20px;
 }
 
 .box {
     background-color: gray;
     padding: 5px;
     margin-bottom: 10px;
+    display: flex;
+    gap: 20px;
+    border-radius: 5px; 
 }
 
+.kolumner{
+display: flex;
+    
+}
 /* Rubrikerna */
 h1 {
     font-family: "Faster One", system-ui;
@@ -53,7 +62,9 @@ h1 {
 h2 {}
 
 /* sidans innehåll */
-img {}
+img {
+    width: 30%;
+}
 
 p {}
 
