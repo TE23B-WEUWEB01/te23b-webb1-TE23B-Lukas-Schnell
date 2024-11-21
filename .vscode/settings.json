@@ -1,4 +1,8 @@
 {
     "livePreview.defaultPreviewPath": "/Kapitel 1/pippi/index.html",
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "editor.tokenColorCustomizations": {
+        "comments": "",
+        "textMateRules": []
+    }
 }
