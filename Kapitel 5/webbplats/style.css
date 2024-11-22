@@ -1,0 +1,76 @@
+/* Enkel CSS-reset */
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;padding:0;
+}
+
+body{
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Aubrey&display=swap');
+
+:root{
+--darkred: #780000;
+--darkblue: #003049;
+--lightblue: #669bbc;
+--lightred: #c1121f;
+--beige: #fdf0d5;
+
+
+}
+.kontainer{
+    width: 800px;
+    margin: auto;
+    padding:20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* menyn utseende */
+ul{
+    display: flex;
+    list-style-type: none;justify-content: space-between;
+
+}
+
+li{
+
+}
+
+a{
+    background-color: var(--lightred);
+    padding: 0 20px;
+    border-radius: 3px;
+    width: 140px;
+    color: var(--lightblue);
+    text-align: center;
+    display: inline-block;
+}
+
+/* innehållets utseende */
+h1{
+    font-family: "Aubrey", system-ui;
+    color: var(--darkred);
+    margin-bottom: 40px;
+}
+p{
+
+}
+.tack{
+
+}
+figure{
+
+}
+img{
+    width: 100%;
+}
+figcaption{
+    
+}
+
