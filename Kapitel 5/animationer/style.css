@@ -1,0 +1,65 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #CCC;
+}
+
+.ruta {
+    width: 100px;
+    height: 100px;
+    margin: 100px auto 100px;
+    animation: bytFärg 1s infinite;
+}
+
+@keyframes bytFärg {
+    0% {
+        background-color: red;
+        transform: scale(1);
+    }
+
+    50% {
+        background-color: green;
+        transform: scale(2) translateX(200px);
+        ;
+        border-radius: 40px;
+
+    }
+
+    100% {
+        background-color: red;
+        transform: scale(1) translateX(0px);
+    }
+}
+
+@keyframes studsa{
+    0%{
+        
+    }
+}
+
+.emoji{
+    width: 100px;
+    font-size: 30px;
+}
