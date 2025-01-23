@@ -1,0 +1,64 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.ruskigHemsida {
+    font-size: 50px;
+}
+
+
+body {
+
+    background-image: url(https://karye.gitlab.io/weuweb01/images/image-134.jpg);
+    background-repeat: no-repeat;
+}
+
+.kontainer {
+    width: 1000px;
+
+    margin: 50px auto 100px;
+    padding: 50px;
+}
+
+.meny {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.meny a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.meny img {
+    width: 26%;
+}
+
+.sida {
+    background-color: aliceblue;
+    display: grid;
+}
