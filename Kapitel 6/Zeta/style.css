@@ -22,43 +22,77 @@ ul {
     padding: 0;
 }
 
-.ruskigHemsida {
-    font-size: 50px;
-}
-
-
 body {
-
     background-image: url(https://karye.gitlab.io/weuweb01/images/image-134.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .kontainer {
-    width: 1000px;
-
+    width: 100%;
+    max-width: 1200px;
     margin: 50px auto 100px;
-    padding: 50px;
+    padding: 20px;
 }
 
 .meny {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    align-items: center;
+    padding: 15px;
 }
 
 .meny a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
-    margin-top: 40px;
+    font-size: 16px;
+    margin-top: 10px;
     text-transform: uppercase;
+    padding: 5px;
 }
 
 .meny img {
-    width: 26%;
+    width: 20%;
 }
 
 .sida {
     background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.sida h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.sida h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.rutor {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+}
+
+.produkt {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.produkt:hover {
+    transform: scale(1.05);
+}
+
+.produkt img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.produkt h3 {
+    font-size: 18px;
 }
