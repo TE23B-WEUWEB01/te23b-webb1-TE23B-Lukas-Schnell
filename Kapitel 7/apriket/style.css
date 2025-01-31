@@ -26,9 +26,47 @@ img {
     width: 100%;
 }
 
-body {}
+body {
+    background-image: url(./bilder/bankar_bat_for_biffar_1.0.png);
+    background-repeat: no-repeat;
+}
 
-.kontainer {}
+.kontainer {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* bygga layouten */
+
+.kontainer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+        "header header"
+        "main aside"
+        "footer footer";
+}
+
+header {
+    grid-area: sidhuvud;
+    background-color: red;
+}
+
+main {
+    grid-area: artiklarna;
+    background-color: blue;
+}
+
+aside {
+    grid-area: sidebar;
+    background-color:chartreuse;
+}
+
+footer {
+    grid-area:sidfot;
+    background-color: yellow;
+}
 
 /* sidohuvud */
 
@@ -52,15 +90,17 @@ header nav a:hover {}
 
 main {}
 
-main h3 {}
+main article {}
 
-main figure {}
+main article h3 {}
 
-main figure img {}
+main article figure {}
 
-main figure figcaption {}
+main article figure img {}
 
-main p {}
+main article figure figcaption {}
+
+main article p {}
 
 /* sidebar */
 
