@@ -29,6 +29,7 @@ img {
 /* regler bara för index.html */
 .wanderer {
     background: #000;
+    color: aliceblue;
 
 }
 
@@ -54,3 +55,4 @@ img {
     transform : translate(-50%, -50%);
     border: none;
 }
+
